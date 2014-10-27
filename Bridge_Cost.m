@@ -10,16 +10,16 @@
 %prize Aesthetic=25, if we get second prize Aesthetic=10, if we do not win
 %the priz Aesthetic=0
 
-function Cost=Bridge_Cost(N_S,H,W,T,S,N_H,V,Aesthetic)
+function Cost=Bridge_Cost(numStrings, pylonHeight, pylonWeight,T,S,N_H,V,Aesthetic)
 
 %Cost of the hangars
 Cost_Hangars=5*N_H+(S/(N_H+1))/40;
 
 %Cost of the strings
-Cost_Strings=10*sum(fib(N_S));
+Cost_Strings=10*sum(fib(numStrings));
 
 %Cost of the Pylons
-Cost_Pylons=H*W*T-V;
+Cost_Pylons=pylonHeight*pylonWeight*T-V;
 
 %Cost of the Distance between the Pylons
 Cost_Distance=(S==4)*40+(S==6)*10;
