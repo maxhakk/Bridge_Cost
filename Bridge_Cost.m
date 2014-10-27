@@ -18,6 +18,8 @@ Cost_Hangars=5*N_H+(S/(N_H+1))/40;
 %Cost of the strings
 Cost_Strings=10*sum(fib(N_S));
 
+%TESTING yaaaayyyyyy
+
 %Cost of the Pylons
 Cost_Pylons=H*W*T-V;
 
