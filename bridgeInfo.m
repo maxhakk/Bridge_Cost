@@ -6,8 +6,8 @@ clc, clear, close all;
 %     pylonThickness, dBetweenPylons, numHangars, vol] = ...
 %     bridgeInfo (pylonHeight)
 
-height = 20; %pylon height (in)
-width = 4; %width of pylon (in)
+pHeight = 20; %pylon height (in)
+pWidth = 4; %width of pylon (in)
 hangars = 4; %number of hangars
 span = 4; %width of span (ft)
 g = 9.8; %gravitational acceleration
@@ -19,3 +19,4 @@ elseif (span == 6)
 end
 
 mPerHangar = mass / hangars;
+
