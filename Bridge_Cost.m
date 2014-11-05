@@ -11,7 +11,7 @@
 %the priz Aesthetic=0
 
 function Cost=Bridge_Cost(numStrings, pylonHeight, pylonWeight,...
-    pylonThickness, dBetweenPylons, numHangars, vol,Aesthetic)
+    pylonThickness, dBetweenPylons, numHangars, vol, Aesthetic)
 
 %Cost of the hangars
 Cost_Hangars=5*numHangars+(dBetweenPylons/(numHangars+1))/40;

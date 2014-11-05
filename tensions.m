@@ -1,2 +1,10 @@
-function tensions (pylonHeight)
-%File for calculating tensions
+%% File for calculating tensions
+
+
+function [numStrings, pylonHeight, pylonWeight,...
+    pylonThickness, dBetweenPylons, numHangars, vol] = ...
+    tensions (pylonHeight)
+
+
+
+end
